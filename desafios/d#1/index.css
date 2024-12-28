@@ -1,0 +1,32 @@
+body{
+    justify-self: center;
+}
+.lado{
+    display: flex;
+}
+.letra{
+    font-size: 25px;
+    padding-left: 15px;
+}
+.borda{
+    border-radius: 5%;
+    border: 1px solid black;
+    width: 350px;
+    padding: 10px;
+}
+.imgcir img { 
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    padding-top: 15px;
+  }
+.imgcir div{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: #aaa;
+    overflow: hidden;
+    position: relative;
+}

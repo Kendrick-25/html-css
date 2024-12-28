@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*
+        # = id
+        . = classe
+        : = pseudo-classe
+        :: = pseudo-elemento*/
+        a{
+            font-family: 'Courier New', Courier, monospace;
+            color: chocolate;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            font-style: italic;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:active{
+            color: skyblue;
+        }
+        a::before{
+            text-decoration: none;
+            font-weight: normal;
+            content: '\00265F';
+            color: rgb(156, 0, 156);
+        }
+        a::after{
+            content: ' link =]';
+            text-decoration: none;
+            font-weight: normal;
+            color: mediumvioletred;
+        }
+        .rei::before{
+            text-decoration: none;
+            font-weight: normal;
+            content: '\00265A';
+        }
+    </style>
+</head>
+<body>
+    <h1><em>link ;]</em></h1>
+    <ul>
+        <li><a href="https://florr.io/" target="_blank">florr.io</a></li>
+        <li><a href="https://stug.io/" target="_blank">stug.io</a></li>
+        <li><a href="https://www.chess.com/" target="_blank" class="rei">chess</a></li>
+    </ul>
+</body>
+</html>

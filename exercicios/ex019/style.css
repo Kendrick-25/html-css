@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* 
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+*/
+body{
+    background-color: rgb(228, 136, 136);
+    font-family: 'Courier New', Courier, monospace;
+}
+.veja{
+    background-color: aquamarine;
+}
+.primeiro{
+    color: #700000;
+    font-weight: bold;
+}
+.segundo{
+    color: #850000;
+}
+.terceiro{
+    color: #B30202;
+}
+h1#principal{
+    color: #C20000;
+    text-align: center;
+}
+h1{
+    color: #420000;
+}
+h2{
+    color: crimson;
+}
