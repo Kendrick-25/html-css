@@ -56,19 +56,19 @@ section.imagem >p{
     padding: 30px;
 }
 section#img01{
-    background: url('Navio1.png') center center no-repeat fixed;
+    background: url('navio1.png') center center no-repeat fixed;
     background-size: cover;
 }
 section#img02{
-    background: url('Navio2.png') right center no-repeat fixed;
+    background: url('navio2.png') right center no-repeat fixed;
     background-size: cover;
 }
 section#img03{
-    background: url('Navio3.png') center center no-repeat fixed;
+    background: url('navio3.png') center center no-repeat fixed;
     background-size: cover;
 }
 section#img04{
-    background: url('FOGO.png') center center no-repeat fixed;
+    background: url('fogo.png') center center no-repeat fixed;
     background-size: cover;
 }
 
