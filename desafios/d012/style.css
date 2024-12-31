@@ -46,11 +46,30 @@ section.imagem{
     background-color: rgba(51 ,51 ,51);
     color: white;
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.imagem >p{
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
-    width: 500px;
+    width: 750px;
     padding: 30px;
+}
+section#img01{
+    background: url('Navio1.png') center center no-repeat fixed;
+    background-size: cover;
+}
+section#img02{
+    background: url('Navio2.png') right center no-repeat fixed;
+    background-size: cover;
+}
+section#img03{
+    background: url('Navio3.png') center center no-repeat fixed;
+    background-size: cover;
+}
+section#img04{
+    background: url('FOGO.png') center center no-repeat fixed;
+    background-size: cover;
 }
 
 a{
