@@ -4,11 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabela</title>
+    <style>
+        td{ padding: 5px;
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: top;
+        }
+        td.olha{
+            background-color: lemonchiffon;
+
+        }
+        table{
+            height: 400px;
+            width: 300px;
+            border-collapse: collapse;
+
+        }
+        tr.linha{
+            background-color: indigo;
+        }
+    </style>
 </head>
 <body>
     <h1>tabelinha</h1>
+    <!--
+        Hierarquias tabelais Simples
+        table = tabela
+            table row = linha de tabela
+                table header = cabeçalho de tabela
+                Table dath = dado de tabela
+    -->
     <table>
-        <p>sadasd</p>
+        <tr><!-- Primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha"><!-- Segunda linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr><!-- Terceira linha-->
+            <td class="olha">A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr><!-- Quarta linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>B5</td>
+            <td>C5</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+            <td>B6</td>
+            <td>C6</td>
+        </tr>
     </table>
 </body>
 </html>
