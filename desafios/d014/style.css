@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100vh;
+    height: 100vh;
+}
+
+/*main{
+    height: 100vh;
+    position: relative;
+    background-color: #09B0D0;
+}*/
+
+body{
+    background: url('fundo1.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+section#cell{
+    height: 627px;
+    width: 311px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: url(imagens/frame-iphone.png) no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}
+section#social{
+    text-align: left;
+}
+section#social img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+section#social img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    transition: 1s, border 1s;
+}
+section#social img#home:hover{
+    box-shadow: 5px 5px 10px #3A3A3A;
+}
+section#social img#tube:hover{
+    box-shadow: 5px 5px 10px #5F0001;
+}
+section#social img#git:hover{
+    box-shadow: 5px 5px 10px #1E973B;
+}
+section#social img#insta:hover{
+    box-shadow: 5px 5px 10px #D42F89;
+}
+section#social img#twit:hover{
+    box-shadow: 5px 5px 10px #58AFE7;
+}
+section#social img#face:hover{
+    box-shadow: 5px 5px 10px #44619D;
+}
