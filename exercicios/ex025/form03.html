@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forlumario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="Inome">Name:</label>
+            <input type="text" name="nome" id="Inome" required maxlength="30" placeholder="Nome agora" autocomplete="name" >
+        </p>
+        <p>
+            <label for="Imedia">Média</label>
+            <input type="number" name="media" id="Imedia" min="0" max="10" placeholder="0 a 10, se não tu morre" step="0.5" value="5" required>
+        </p>
+        <p>
+            <label for="Imes">Anal letivo</label>
+            <input type="month" name="mes" id="Imes" value="2025-01">
+        </p>
+        <p>
+            <label for="Idia">DIA</label>
+            <input type="date" name="dia" id="Idia">
+        </p>
+        <p>
+            <label for="Iprova">HORA DA PROVA</label>
+            <input type="time" name="prova" id="Iprova">
+        </p>
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="ENVIAR">
+        </p>
+    </form>
+</body>
+</html>
