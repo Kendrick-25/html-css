@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auauauauauauauauauauauauauauauauauauuauauauauaau</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="Iano">Em que anal você nasceu?</label>
+            <input type="number" name="ano" id="Iano" oninput="calcidade()">
+        </p>
+        <p>
+            <label for="Idade">SUA Idade é?</label>
+            <output id="Idade">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enter">
+            <input type="reset" value="SMT">
+        </p>
+    </form>
+    <script>
+        function calcidade(){
+            let atual = new Date().getFullYear()
+            Idade.innerHTML = Number(atual)-Number(Iano.value)
+        }
+    </script>
+</body>
+</html>
