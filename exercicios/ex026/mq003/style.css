@@ -1,0 +1,31 @@
+/*Geral*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(110, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    text-shadow: 3px 3px 8px rgb(0, 255, 242);
+    padding: 10px;
+}
+/*Retrato*/
+@media screen and (orientation: portrait){        
+    body{
+        background-image: url("cev-portrait.jpg");
+    }
+}
+/*Paisage*/
+@media screen and (orientation: landscape){
+    body{
+        background-image: url("cev-landscape.jpg");
+        /*background-position: left bottom;*/
+    }
+}
